@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <plugin xmlns="http://phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-zip"
+    id="cordova-plugin-zip-pass"
     version="3.1.0">
   <engines>
     <engine name="cordova" version=">=3.3.0" />
   </engines>
   <dependency id="cordova-plugin-file" version=">=2.0.0" />
 
-  <name>cordova-plugin-zip</name>
+  <name>cordova-plugin-zip-pass</name>
   <description>Unzips zip files</description>
 
-  <js-module src="zip.js" name="Zip">
-    <clobbers target="zip" />
+  <js-module src="zippass.js" name="ZipPass">
+    <clobbers target="zippass" />
   </js-module>
 
   <platform name="android">

@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-zip",
-  "version": "3.1.0",
-  "description": "Unzips zip files",
+  "name": "cordova-plugin-zip-pass",
+  "version": "1.0.0",
+  "description": "Unzips zip files with password",
   "cordova": {
-    "id": "cordova-plugin-unzip",
+    "id": "cordova-plugin-zip-pass",
     "platforms": [
       "android",
       "ios"
@@ -26,8 +26,5 @@
   ],
   "author": "",
   "license": "BSD",
-  "bugs": {
-    "url": "https://github.com/MobileChromeApps/zip/issues"
-  },
-  "homepage": "https://github.com/MobileChromeApps/zip"
+  "homepage": "https://github.com/javiermelia/cordova-plugin-zip-pass"
 }
