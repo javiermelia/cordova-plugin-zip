@@ -23,5 +23,5 @@ exports.unzip = function(fileName, outputDirectory, password, callback, progress
             callback(-1);
         }
     };
-    exec(win, fail, 'ZipPass', 'unzip', [fileName, outputDirectory, password]);
+    exec(win, fail, 'Zip', 'unzip', [fileName, outputDirectory, password]);
 };

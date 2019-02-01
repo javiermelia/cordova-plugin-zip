@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <plugin xmlns="http://phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-zip-pass"
-    version="1.0.0">
+    id="cordova-plugin-zip"
+    version="3.2.0">
   <engines>
     <engine name="cordova" version=">=3.3.0" />
   </engines>
   <dependency id="cordova-plugin-file" version=">=2.0.0" />
 
-  <name>cordova-plugin-zip-pass</name>
+  <name>cordova-plugin-zip</name>
   <description>Unzips zip files</description>
 
-  <js-module src="zippass.js" name="ZipPass">
-    <clobbers target="zippass" />
+  <js-module src="zip.js" name="Zip">
+    <clobbers target="zip" />
   </js-module>
 
   <platform name="android">
     <source-file src="src/android/Zip.java" target-dir="src/org/apache/cordova" />
 
     <config-file target="res/xml/config.xml" parent="/widget">
-      <feature name="ZipPass">
+      <feature name="Zip">
         <param name="android-package" value="org.apache.cordova.Zip"/>
       </feature>
     </config-file>
@@ -63,7 +63,7 @@
     <header-file src="src/ios/minizip/crypt.h" target-dir="Plugins/minizip" />
 
     <config-file target="config.xml" parent="/widget">
-      <feature name="ZipPass">
+      <feature name="Zip">
         <param name="ios-package" value="ZipPlugin"/>
       </feature>
     </config-file>
