@@ -1,5 +1,5 @@
 {
-  "name": "ZipPass",
+  "name": "cordova-plugin-zip-pass",
   "version": "1.0.0",
   "description": "Unzips zip files with password",
   "cordova": {

@@ -8,7 +8,7 @@
   </engines>
   <dependency id="cordova-plugin-file" version=">=2.0.0" />
 
-  <name>ZipPass</name>
+  <name>cordova-plugin-zip-pass</name>
   <description>Unzips zip files</description>
 
   <js-module src="zippass.js" name="ZipPass">
